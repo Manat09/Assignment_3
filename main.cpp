@@ -1,7 +1,9 @@
 #include "Account.h"
-
+#include "CheckingAccount.h"
 int main() {
-    Account user("Manat", 1000, 200, 100, 50);
-    cout<<user.deposit(user.getDollars(), user.getEuros());
+    CheckingAccount user("Zoro", 0, 200, 100, 50);
+
+    user.deposit(user.getBalance(),user.getDollars(), user.getEuros(), user.getTenge());
+    user.withdraw(user.getBalance(),user.getFee(), 120);
     return 0;
 }

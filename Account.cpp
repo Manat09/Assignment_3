@@ -35,15 +35,22 @@ double Account::getTenge() const {
 void Account::setTenge(double tenge) {
     Account::tenge = tenge;
 }
-//
-//double Account::deposit(){
-//    return 0;
-//}
 
-double Account::withdraw() {
-    return 0;
+void Account::deposit(double balance, double dollars, double euros, double tenge) {
+    setBalance(
+            dollars*((1+interest_rate[0])/100) +
+            euros*((1+interest_rate[1])/100) +
+            tenge*((1+interest_rate[2])/100)
+    );
+    cout<<"Your current balance is: "<<getBalance()<<endl;
 }
 
-double Account::deposit(double dollars, double euros) {
-    return dollars+euros;
+void Account::withdraw(double balance, double fee, double amount) {
+    setBalance(balance - (amount/100 * fee));
+    cout<<"You have withdrawn "<<amount<<"\nAnd fee is 1.5%: "<<amount/100 * fee<<endl;
+    cout<<"Your current balance is: "<<getBalance()<<endl;
 }
+
+
+
+

@@ -142,6 +142,78 @@ Account.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Account.cpp.s
 .PHONY : Account.cpp.s
 
+CheckingAccount.obj: CheckingAccount.cpp.obj
+.PHONY : CheckingAccount.obj
+
+# target to build an object file
+CheckingAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.obj
+.PHONY : CheckingAccount.cpp.obj
+
+CheckingAccount.i: CheckingAccount.cpp.i
+.PHONY : CheckingAccount.i
+
+# target to preprocess a source file
+CheckingAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.i
+.PHONY : CheckingAccount.cpp.i
+
+CheckingAccount.s: CheckingAccount.cpp.s
+.PHONY : CheckingAccount.s
+
+# target to generate assembly for a file
+CheckingAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.s
+.PHONY : CheckingAccount.cpp.s
+
+SavingsAccount.obj: SavingsAccount.cpp.obj
+.PHONY : SavingsAccount.obj
+
+# target to build an object file
+SavingsAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\SavingsAccount.cpp.obj
+.PHONY : SavingsAccount.cpp.obj
+
+SavingsAccount.i: SavingsAccount.cpp.i
+.PHONY : SavingsAccount.i
+
+# target to preprocess a source file
+SavingsAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\SavingsAccount.cpp.i
+.PHONY : SavingsAccount.cpp.i
+
+SavingsAccount.s: SavingsAccount.cpp.s
+.PHONY : SavingsAccount.s
+
+# target to generate assembly for a file
+SavingsAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\SavingsAccount.cpp.s
+.PHONY : SavingsAccount.cpp.s
+
+TrustAccount.obj: TrustAccount.cpp.obj
+.PHONY : TrustAccount.obj
+
+# target to build an object file
+TrustAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\TrustAccount.cpp.obj
+.PHONY : TrustAccount.cpp.obj
+
+TrustAccount.i: TrustAccount.cpp.i
+.PHONY : TrustAccount.i
+
+# target to preprocess a source file
+TrustAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\TrustAccount.cpp.i
+.PHONY : TrustAccount.cpp.i
+
+TrustAccount.s: TrustAccount.cpp.s
+.PHONY : TrustAccount.s
+
+# target to generate assembly for a file
+TrustAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\TrustAccount.cpp.s
+.PHONY : TrustAccount.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -178,6 +250,15 @@ help:
 	@echo ... Account.obj
 	@echo ... Account.i
 	@echo ... Account.s
+	@echo ... CheckingAccount.obj
+	@echo ... CheckingAccount.i
+	@echo ... CheckingAccount.s
+	@echo ... SavingsAccount.obj
+	@echo ... SavingsAccount.i
+	@echo ... SavingsAccount.s
+	@echo ... TrustAccount.obj
+	@echo ... TrustAccount.i
+	@echo ... TrustAccount.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
