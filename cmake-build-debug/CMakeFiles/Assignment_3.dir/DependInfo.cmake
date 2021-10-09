@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/clion projects/Assignment_3/Account.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/Account.cpp.obj"
   "D:/clion projects/Assignment_3/CheckingAccount.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/CheckingAccount.cpp.obj"
+  "D:/clion projects/Assignment_3/I_Printable.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/I_Printable.cpp.obj"
+  "D:/clion projects/Assignment_3/Redistribution.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/Redistribution.cpp.obj"
   "D:/clion projects/Assignment_3/SavingsAccount.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/SavingsAccount.cpp.obj"
   "D:/clion projects/Assignment_3/TrustAccount.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/TrustAccount.cpp.obj"
   "D:/clion projects/Assignment_3/main.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/main.cpp.obj"

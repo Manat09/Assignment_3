@@ -1,10 +1,23 @@
-//#ifndef ASSIGNMENT_3_SAVINGSACCOUNT_H
-//#define ASSIGNMENT_3_SAVINGSACCOUNT_H
-//#include "Account.h"
-//class SavingsAccount:public Account{
-//public:
-//    string getInterest_Rate();
-//private:
-//    string interest_rate[3][2]={{"dollars", "1.5"},{"euros", "1.8"},{"tenge", "1.2"}};
-//};
-//#endif //ASSIGNMENT_3_SAVINGSACCOUNT_H
+#ifndef ASSIGNMENT_3_SAVINGSACCOUNT_H
+#define ASSIGNMENT_3_SAVINGSACCOUNT_H
+#include "Account.h"
+
+class SavingsAccount : public Account{
+public:
+    SavingsAccount();
+    void setInterestRateDollars(int interestRateForDollars);
+    void setInterestRateEuros(int interestRateForEuros);
+    void setInterestRateTenge(int interestRateForTenge);
+
+    int getInterestRateDollars() const;
+    int getInterestRateEuros() const;
+    int getInterestRateTenge() const;
+
+    void deposit(string currency);
+    void withdraw(int cash, string currency);
+private:
+    int interestRateDollars;
+    int interestRateEuros;
+    int interestRateTenge;
+};
+#endif //ASSIGNMENT_3_SAVINGSACCOUNT_H

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "Assignment_3.pdb"
   "CMakeFiles/Assignment_3.dir/Account.cpp.obj"
   "CMakeFiles/Assignment_3.dir/CheckingAccount.cpp.obj"
+  "CMakeFiles/Assignment_3.dir/I_Printable.cpp.obj"
+  "CMakeFiles/Assignment_3.dir/Redistribution.cpp.obj"
   "CMakeFiles/Assignment_3.dir/SavingsAccount.cpp.obj"
   "CMakeFiles/Assignment_3.dir/TrustAccount.cpp.obj"
   "CMakeFiles/Assignment_3.dir/main.cpp.obj"

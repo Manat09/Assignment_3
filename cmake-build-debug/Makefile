@@ -166,6 +166,54 @@ CheckingAccount.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.s
 .PHONY : CheckingAccount.cpp.s
 
+I_Printable.obj: I_Printable.cpp.obj
+.PHONY : I_Printable.obj
+
+# target to build an object file
+I_Printable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\I_Printable.cpp.obj
+.PHONY : I_Printable.cpp.obj
+
+I_Printable.i: I_Printable.cpp.i
+.PHONY : I_Printable.i
+
+# target to preprocess a source file
+I_Printable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\I_Printable.cpp.i
+.PHONY : I_Printable.cpp.i
+
+I_Printable.s: I_Printable.cpp.s
+.PHONY : I_Printable.s
+
+# target to generate assembly for a file
+I_Printable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\I_Printable.cpp.s
+.PHONY : I_Printable.cpp.s
+
+Redistribution.obj: Redistribution.cpp.obj
+.PHONY : Redistribution.obj
+
+# target to build an object file
+Redistribution.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Redistribution.cpp.obj
+.PHONY : Redistribution.cpp.obj
+
+Redistribution.i: Redistribution.cpp.i
+.PHONY : Redistribution.i
+
+# target to preprocess a source file
+Redistribution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Redistribution.cpp.i
+.PHONY : Redistribution.cpp.i
+
+Redistribution.s: Redistribution.cpp.s
+.PHONY : Redistribution.s
+
+# target to generate assembly for a file
+Redistribution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Redistribution.cpp.s
+.PHONY : Redistribution.cpp.s
+
 SavingsAccount.obj: SavingsAccount.cpp.obj
 .PHONY : SavingsAccount.obj
 
@@ -253,6 +301,12 @@ help:
 	@echo ... CheckingAccount.obj
 	@echo ... CheckingAccount.i
 	@echo ... CheckingAccount.s
+	@echo ... I_Printable.obj
+	@echo ... I_Printable.i
+	@echo ... I_Printable.s
+	@echo ... Redistribution.obj
+	@echo ... Redistribution.i
+	@echo ... Redistribution.s
 	@echo ... SavingsAccount.obj
 	@echo ... SavingsAccount.i
 	@echo ... SavingsAccount.s

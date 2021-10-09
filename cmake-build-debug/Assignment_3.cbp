@@ -94,6 +94,18 @@
 		<Unit filename="D:/clion projects/Assignment_3/CheckingAccount.h">
 			<Option target="Assignment_3"/>
 		</Unit>
+		<Unit filename="D:/clion projects/Assignment_3/I_Printable.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="D:/clion projects/Assignment_3/I_Printable.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="D:/clion projects/Assignment_3/Redistribution.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="D:/clion projects/Assignment_3/Redistribution.h">
+			<Option target="Assignment_3"/>
+		</Unit>
 		<Unit filename="D:/clion projects/Assignment_3/SavingsAccount.cpp">
 			<Option target="Assignment_3"/>
 		</Unit>

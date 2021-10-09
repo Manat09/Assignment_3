@@ -8,9 +8,30 @@ CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.obj: ..\Account.h
 CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.obj: ..\CheckingAccount.cpp
 CMakeFiles\Assignment_3.dir\CheckingAccount.cpp.obj: ..\CheckingAccount.h
 
+CMakeFiles\Assignment_3.dir\I_Printable.cpp.obj: ..\Account.h
+CMakeFiles\Assignment_3.dir\I_Printable.cpp.obj: ..\I_Printable.cpp
+CMakeFiles\Assignment_3.dir\I_Printable.cpp.obj: ..\I_Printable.h
+CMakeFiles\Assignment_3.dir\I_Printable.cpp.obj: ..\SavingsAccount.h
+
+CMakeFiles\Assignment_3.dir\Redistribution.cpp.obj: ..\Account.h
+CMakeFiles\Assignment_3.dir\Redistribution.cpp.obj: ..\Redistribution.cpp
+CMakeFiles\Assignment_3.dir\Redistribution.cpp.obj: ..\Redistribution.h
+CMakeFiles\Assignment_3.dir\Redistribution.cpp.obj: ..\SavingsAccount.h
+
+CMakeFiles\Assignment_3.dir\SavingsAccount.cpp.obj: ..\Account.h
 CMakeFiles\Assignment_3.dir\SavingsAccount.cpp.obj: ..\SavingsAccount.cpp
+CMakeFiles\Assignment_3.dir\SavingsAccount.cpp.obj: ..\SavingsAccount.h
+
+CMakeFiles\Assignment_3.dir\TrustAccount.cpp.obj: ..\Account.h
+CMakeFiles\Assignment_3.dir\TrustAccount.cpp.obj: ..\SavingsAccount.h
+CMakeFiles\Assignment_3.dir\TrustAccount.cpp.obj: ..\TrustAccount.cpp
+CMakeFiles\Assignment_3.dir\TrustAccount.cpp.obj: ..\TrustAccount.h
 
 CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\Account.h
 CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\CheckingAccount.h
+CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\I_Printable.h
+CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\Redistribution.h
+CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\SavingsAccount.h
+CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\TrustAccount.h
 CMakeFiles\Assignment_3.dir\main.cpp.obj: ..\main.cpp
 

@@ -4,13 +4,18 @@
 #define ASSIGNMENT_3_CHECKINGACCOUNT_H
 
 class CheckingAccount:public Account{
-public:
-    CheckingAccount(const string &name, double balance, double dollars, double euros, double tenge);
-
 private:
-    float fee = 1.5;
+    double fee;
 public:
-    float getFee() const;
+    CheckingAccount(); //default constructor
+
+    void withdraw(int cash, string currency);   //function to get money from balance with specific fee
+
+    void deposit(string currency);
+
+    void setFee(double fee);
+
+    double getFee() const;
 };
 
 #endif //ASSIGNMENT_3_CHECKINGACCOUNT_H
