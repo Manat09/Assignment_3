@@ -11,8 +11,8 @@ public:
     Account();
     Account(const string &name, double balance, double dollars, double euros, double tenge);
 
-    virtual void withdraw(int cash, string currency) = 0;
     virtual void deposit(string currency) = 0;
+    virtual void withdraw(int amount, string currency) = 0;
 
     const string &getName() const;
     double getBalance() const;

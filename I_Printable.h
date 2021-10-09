@@ -3,9 +3,8 @@
 #include "SavingsAccount.h"
 class I_Printable {
 public:
-
+    // I_Printable();
     void print(const SavingsAccount& account);
-    I_Printable();
 };
 
 #endif //ASSIGNMENT_3_I_PRINTABLE_H

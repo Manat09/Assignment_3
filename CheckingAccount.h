@@ -5,7 +5,7 @@
 
 class CheckingAccount:public Account{
 public:
-    CheckingAccount(); //default constructor
+    CheckingAccount();
 
     void withdraw(int amount, string currency);
     void deposit(string currency);
@@ -14,5 +14,4 @@ public:
 private:
     double fee;
 };
-
 #endif //ASSIGNMENT_3_CHECKINGACCOUNT_H
