@@ -7,9 +7,9 @@
 int main() {
     I_Printable i_printable = *new I_Printable();
     Redistribution *redistribution = new Redistribution();
+
     SavingsAccount savingsAccount = SavingsAccount();
     savingsAccount.setTenge(1000);
-    savingsAccount.deposit("tenge");
     savingsAccount.deposit("tenge");
 
     redistribution->accounts.push_back(&savingsAccount);
