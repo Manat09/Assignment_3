@@ -1,6 +1,6 @@
-#include <iostream>
+#include "Account.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+   // Account user = new Account("Manat", 1000, 200, 100, 50);
     return 0;
 }

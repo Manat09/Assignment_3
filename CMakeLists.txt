@@ -3,4 +3,4 @@ project(Assignment_3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Assignment_3 main.cpp Account.cpp Account.h)
+add_executable(Assignment_3 main.cpp)

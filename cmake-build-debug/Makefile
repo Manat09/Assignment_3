@@ -118,29 +118,53 @@ Assignment_3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\build
 .PHONY : Assignment_3\fast
 
-Accaount.obj: Accaount.cpp.obj
-.PHONY : Accaount.obj
+Acc.obj: Acc.cpp.obj
+.PHONY : Acc.obj
 
 # target to build an object file
-Accaount.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Accaount.cpp.obj
-.PHONY : Accaount.cpp.obj
+Acc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Acc.cpp.obj
+.PHONY : Acc.cpp.obj
 
-Accaount.i: Accaount.cpp.i
-.PHONY : Accaount.i
+Acc.i: Acc.cpp.i
+.PHONY : Acc.i
 
 # target to preprocess a source file
-Accaount.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Accaount.cpp.i
-.PHONY : Accaount.cpp.i
+Acc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Acc.cpp.i
+.PHONY : Acc.cpp.i
 
-Accaount.s: Accaount.cpp.s
-.PHONY : Accaount.s
+Acc.s: Acc.cpp.s
+.PHONY : Acc.s
 
 # target to generate assembly for a file
-Accaount.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Accaount.cpp.s
-.PHONY : Accaount.cpp.s
+Acc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Acc.cpp.s
+.PHONY : Acc.cpp.s
+
+Account.obj: Account.cpp.obj
+.PHONY : Account.obj
+
+# target to build an object file
+Account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Account.cpp.obj
+.PHONY : Account.cpp.obj
+
+Account.i: Account.cpp.i
+.PHONY : Account.i
+
+# target to preprocess a source file
+Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Account.cpp.i
+.PHONY : Account.cpp.i
+
+Account.s: Account.cpp.s
+.PHONY : Account.s
+
+# target to generate assembly for a file
+Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Account.cpp.s
+.PHONY : Account.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -175,9 +199,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment_3
-	@echo ... Accaount.obj
-	@echo ... Accaount.i
-	@echo ... Accaount.s
+	@echo ... Acc.obj
+	@echo ... Acc.i
+	@echo ... Acc.s
+	@echo ... Account.obj
+	@echo ... Account.i
+	@echo ... Account.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

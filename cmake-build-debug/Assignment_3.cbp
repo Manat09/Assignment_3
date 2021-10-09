@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/clion projects/Assignment_3/Accaount.cpp">
+		<Unit filename="D:/clion projects/Assignment_3/Acc.cpp">
 			<Option target="Assignment_3"/>
 		</Unit>
-		<Unit filename="D:/clion projects/Assignment_3/Accaount.h">
+		<Unit filename="D:/clion projects/Assignment_3/Acc.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="D:/clion projects/Assignment_3/Account.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="D:/clion projects/Assignment_3/Account.h">
 			<Option target="Assignment_3"/>
 		</Unit>
 		<Unit filename="D:/clion projects/Assignment_3/main.cpp">
