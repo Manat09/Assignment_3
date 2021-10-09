@@ -1,6 +1,6 @@
 #include "I_Printable.h"
-#include "SavingsAccount.h"
 I_Printable::I_Printable() {}
 void I_Printable::print(const SavingsAccount& account) {
-    cout<< "Your total balance: " + to_string(account.getEuros()) + " euros, " + to_string(account.getDollars()) + " dollars, " + to_string(account.getTenge()) + " tenge.\n";
+    cout<<"\n"<<"Your total balance: "<<account.getDollars() + (account.getEuros()/0,8) + (account.getTenge()/425)<<" dollars"<<endl;
+    cout<< "Your balances in: "<<account.getDollars()<<" dollars, "<<account.getEuros()<<" euros, "<<account.getTenge()<<" tenge.\n\n";
 }

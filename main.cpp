@@ -6,57 +6,47 @@
 #include "TrustAccount.h"
 
 int main() {
-    I_Printable printable = *new I_Printable();
-
-    Redistribution *redis = new Redistribution(); //Created object
-
-    SavingsAccount savingsAccount = SavingsAccount(); //First account
+    I_Printable i_printable = *new I_Printable();
+    Redistribution *redistribution = new Redistribution();
+    SavingsAccount savingsAccount = SavingsAccount();
     savingsAccount.setTenge(100);
     savingsAccount.deposit("tenge");
     savingsAccount.deposit("tenge");
 
+    redistribution->accounts.push_back(&savingsAccount);
 
-    redis->accounts.push_back(&savingsAccount); //Storing accounts in vector
-
-
-    SavingsAccount savingsAccount1 = SavingsAccount(); //Second account
+    SavingsAccount savingsAccount1 = SavingsAccount();
     savingsAccount.setTenge(200);
-    savingsAccount.deposit("dollar");
-    savingsAccount.deposit("dollar");
+    savingsAccount.deposit("dollars");
+    savingsAccount.deposit("dollars");
 
-    redis->accounts.push_back(&savingsAccount1); //Storing accounts in vector
+    redistribution->accounts.push_back(&savingsAccount1);
 
-    cout<<"******** Information about deposit ********" << "\n";
-    cout<<"\n";
-    printable.print(savingsAccount); //Printing savings of accounts
-    printable.print(savingsAccount1);
-
-
-    redis->redistribute(1000); //There redistributing tenge among accounts
-    cout<<"\n";
-    cout<<"******** After redistribution ********" <<"\n";
-    cout<<"\n";
-    printable.print(savingsAccount); //Then printing after redistributing
-    printable.print(savingsAccount1);
-
-    //cout<<savingsAccount.getTenge()<<endl;
-    // printable.print(savingsAccount);
+    cout<<"Your current deposit:" << "\n";
+    i_printable.print(savingsAccount);
+    i_printable.print(savingsAccount1);
 
 
-
+    redistribution->redistribute(1000);
+    cout<<"Your deposit after redistribution:" <<"\n";
+    i_printable.print(savingsAccount);
+    i_printable.print(savingsAccount1);
 
     CheckingAccount checkingAccount = CheckingAccount();
     checkingAccount.setEuros(1000);
-    checkingAccount.withdraw(50, "euro");
-    //cout<<checkingAccount.getEuros()<<endl;
+    checkingAccount.withdraw(50, "euros");
+    cout<<checkingAccount.getEuros()<<endl;
 
     TrustAccount trustAccount = TrustAccount();
     trustAccount.setEuros(1000);
-    trustAccount.deposit("euro");
-    //cout<<"Bonus: "<<trustAccount.getBonus()<<endl;
-    //cout<<"Balance in Euros: "<<trustAccount.getEuros()<<endl<<endl;
-    trustAccount.deposit("euro");
-    //cout<<"Bonus: "<<trustAccount.getBonus()<<endl;
-    //cout<<"Balance in Euros: "<<trustAccount.getEuros()<<endl<<endl;
+    trustAccount.deposit("euros");
+    cout<<"Bonus: "<<trustAccount.getBonus()<<endl;
+    cout<<"Balance in Euros: "<<trustAccount.getEuros()<<endl<<endl;
+    trustAccount.deposit("euros");
+    cout<<"Bonus: "<<trustAccount.getBonus()<<endl;
+    cout<<"Balance in Euros: "<<trustAccount.getEuros()<<endl<<endl;
+    trustAccount.withdraw(50, "dollars");
+    trustAccount.withdraw(50, "euros");
+    trustAccount.withdraw(50, "tenge");
     return 0;
 }

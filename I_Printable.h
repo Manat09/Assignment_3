@@ -5,7 +5,7 @@ class I_Printable {
 public:
 
     void print(const SavingsAccount& account);
-    I_Printable(); //Default constructor
+    I_Printable();
 };
 
 #endif //ASSIGNMENT_3_I_PRINTABLE_H

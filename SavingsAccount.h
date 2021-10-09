@@ -5,19 +5,19 @@
 class SavingsAccount : public Account{
 public:
     SavingsAccount();
-    void setInterestRateDollars(int interestRateForDollars);
-    void setInterestRateEuros(int interestRateForEuros);
-    void setInterestRateTenge(int interestRateForTenge);
+    void setInterestRateDollars(double interestRateForDollars);
+    void setInterestRateEuros(double interestRateForEuros);
+    void setInterestRateTenge(double interestRateForTenge);
 
-    int getInterestRateDollars() const;
-    int getInterestRateEuros() const;
-    int getInterestRateTenge() const;
+    double getInterestRateDollars() const;
+    double getInterestRateEuros() const;
+    double getInterestRateTenge() const;
 
     void deposit(string currency);
     void withdraw(int cash, string currency);
 private:
-    int interestRateDollars;
-    int interestRateEuros;
-    int interestRateTenge;
+    double interestRateDollars;
+    double interestRateEuros;
+    double interestRateTenge;
 };
 #endif //ASSIGNMENT_3_SAVINGSACCOUNT_H

@@ -1,29 +1,28 @@
 #include "CheckingAccount.h"
 
 
-CheckingAccount::CheckingAccount() : fee(1.5){}                                                                  //default constructor
+CheckingAccount::CheckingAccount() : fee(1.5){}
 
 double CheckingAccount::getFee() const {
     return fee;
 }
-
 void CheckingAccount::setFee(double fee) {
     CheckingAccount::fee = fee;
 }
 
-void CheckingAccount::withdraw(int cash, string currency) {
-    double commission = cash * (getFee()/100.0);
-    if (currency=="dollars" || currency=="dollar"){
-        CheckingAccount::setDollars(CheckingAccount::getDollars() - cash - commission);
-        cout<<cash<<"$ "<<"has been withdrawn. The commission for procedure is: "<<commission<<"$"<<endl;
+void CheckingAccount::withdraw(int amount, string currency) {
+    double fee2 = amount / 100 * getFee();
+    if (currency=="dollar"){
+        CheckingAccount::setDollars(CheckingAccount::getDollars() - amount - fee2);
+        cout << amount << " dollars " << "has been withdrawn. The fee for procedure is: " << fee2 << " dollars" << endl;
     }
-    if (currency=="euros" || currency=="euro") {
-        CheckingAccount::setEuros(CheckingAccount::getEuros() - cash - commission);
-        cout<<cash<<" euros "<<"has been withdrawn. The commission for procedure is: "<<commission<<" euros "<<endl;
+    else if (currency=="euro") {
+        CheckingAccount::setEuros(CheckingAccount::getEuros() - amount - fee2);
+        cout << amount << " euros " << "has been withdrawn. The fee for procedure is: " << fee2 << " euros" << endl;
     }
-    if (currency=="tenges" || currency=="tenge") {
-        CheckingAccount::setTenge(CheckingAccount::getTenge() - cash - commission);
-        cout<<cash<<"tg "<<"has been withdrawn. The commission for procedure is: "<<commission<<"tg"<<endl;
+    else{
+        CheckingAccount::setTenge(CheckingAccount::getTenge() - amount - fee2);
+        cout << amount << " tenge " << "has been withdrawn. The fee for procedure is: " << fee2 << " tenge" << endl;
     }
 }
 void CheckingAccount::deposit(string currency){}
