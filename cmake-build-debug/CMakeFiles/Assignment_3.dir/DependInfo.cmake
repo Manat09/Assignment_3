@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/clion projects/Assignment_3/Acc.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/Acc.cpp.obj"
   "D:/clion projects/Assignment_3/Account.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/Account.cpp.obj"
   "D:/clion projects/Assignment_3/main.cpp" "D:/clion projects/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/main.cpp.obj"
   )

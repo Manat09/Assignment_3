@@ -118,30 +118,6 @@ Assignment_3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\build
 .PHONY : Assignment_3\fast
 
-Acc.obj: Acc.cpp.obj
-.PHONY : Acc.obj
-
-# target to build an object file
-Acc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Acc.cpp.obj
-.PHONY : Acc.cpp.obj
-
-Acc.i: Acc.cpp.i
-.PHONY : Acc.i
-
-# target to preprocess a source file
-Acc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Acc.cpp.i
-.PHONY : Acc.cpp.i
-
-Acc.s: Acc.cpp.s
-.PHONY : Acc.s
-
-# target to generate assembly for a file
-Acc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment_3.dir\Acc.cpp.s
-.PHONY : Acc.cpp.s
-
 Account.obj: Account.cpp.obj
 .PHONY : Account.obj
 
@@ -199,9 +175,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment_3
-	@echo ... Acc.obj
-	@echo ... Acc.i
-	@echo ... Acc.s
 	@echo ... Account.obj
 	@echo ... Account.i
 	@echo ... Account.s
